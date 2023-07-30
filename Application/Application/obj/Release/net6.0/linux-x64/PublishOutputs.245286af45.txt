@@ -1,0 +1,7 @@
+D:\Application\Application\Application\obj\Release\net6.0\linux-x64\PubTmp\Out\Application
+D:\Application\Application\Application\obj\Release\net6.0\linux-x64\PubTmp\Out\appsettings.Development.json
+D:\Application\Application\Application\obj\Release\net6.0\linux-x64\PubTmp\Out\appsettings.json
+D:\Application\Application\Application\obj\Release\net6.0\linux-x64\PubTmp\Out\Application.dll
+D:\Application\Application\Application\obj\Release\net6.0\linux-x64\PubTmp\Out\Application.deps.json
+D:\Application\Application\Application\obj\Release\net6.0\linux-x64\PubTmp\Out\Application.runtimeconfig.json
+D:\Application\Application\Application\obj\Release\net6.0\linux-x64\PubTmp\Out\Application.pdb
