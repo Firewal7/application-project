@@ -259,4 +259,4 @@ CONTAINER ID   IMAGE                         COMMAND                  CREATED   
 
 ![Ссылка 5](https://github.com/Firewal7/application-project/blob/main/images/5.jpg)
 
-[Dockerfile](https://github.com/Firewal7/devops-netology/blob/main/image/09-ci-04-jenkins-2.jpg)
+[Dockerfile](https://github.com/Firewal7/application-project/blob/main/Dockerfile)
