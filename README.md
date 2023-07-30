@@ -232,7 +232,30 @@ REPOSITORY                 TAG       IMAGE ID       CREATED       SIZE
 bbb8c2e28d7d/application   v1        a65a7e428b77   4 hours ago   216MB
 ```
 
-2.3 Запуск Docker контейнера. 
+2.3 Запушил docker images на Dockerhub
+
+```
+root@agent:/home/user/app/Application/Application# docker login -u bbb8c2e28d7d
+Password: 
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+root@agent:/home/user/app/Application/Application# docker push bbb8c2e28d7d/application:v1
+The push refers to repository [docker.io/bbb8c2e28d7d/application]
+8cc29b3bd156: Pushed 
+f22821468b1c: Pushed 
+be37720e5f82: Pushed 
+72a7e3e0cdae: Pushed 
+8de6f7578c38: Pushed 
+b63bee926c4e: Pushed 
+8ce178ff9f34: Pushed 
+v1: digest: sha256:9b986b0312b4f0a47687e1d01b2bb6a3cc74d3df60266f09703d9d9cdc1007f0 size: 1788
+```
+![Ссылка 6](https://github.com/Firewal7/application-project/blob/main/images/6.jpg)
+
+2.4 Запуск Docker контейнера. 
 
 ```
 root@agent:/home/user/app/Application/Application# docker run -it -p 8080:80 bbb8c2e28d7d/application:v1
@@ -259,4 +282,4 @@ CONTAINER ID   IMAGE                         COMMAND                  CREATED   
 
 ![Ссылка 5](https://github.com/Firewal7/application-project/blob/main/images/5.jpg)
 
-[Dockerfile](https://github.com/Firewal7/application-project/blob/main/Dockerfile)
+[Dockerfile](https://github.com/Firewal7/application-project/blob/main/images/5.jpg)
