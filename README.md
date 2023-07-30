@@ -16,7 +16,7 @@
 
 1.1 Развернул 2 сервера на Yandex Cloud. (VM server, VM agent).
 
-![Ссылка 1](https://github.com/Firewal7/devops-netology/blob/main/image/09-ci-04-jenkins-1.jpg)
+![Ссылка 1](https://github.com/Firewal7/application-project/blob/main/images/1.jpg)
 
 1.2 Установил на server docker
 
@@ -84,14 +84,16 @@ WARNING: Access to the remote API on a privileged Docker daemon is equivalent
 ================================================================================
 </details>
 
+
 1.3 Добавил пользователя в группу docker
 
-<details>
-<summary>usermod</summary>
-
+```
 root@server:/home/user# sudo usermod -aG docker $USER
+
 root@server:/home/user# su - $USER
+
 root@server:~# docker version
+
 Client: Docker Engine - Community
  Version:           24.0.2
  API version:       1.43
@@ -119,7 +121,7 @@ Server: Docker Engine - Community
  docker-init:
   Version:          0.19.0
   GitCommit:        de40ad0
-</details>
+```
 
 1.4 Запустил Rancher в Контейнере на VM server
 
@@ -185,12 +187,12 @@ Created symlink /etc/systemd/system/multi-user.target.wants/rancher-system-agent
 [INFO]  Starting/restarting rancher-system-agent.service
 ```
 
-![Ссылка 2](https://github.com/Firewal7/devops-netology/blob/main/image/09-ci-04-jenkins-2.jpg)
+![Ссылка 2](https://github.com/Firewal7/application-project/blob/main/images/2.jpg)
 
 2.1 В Visual Studio Code создал сервис, используя технологию ASP.NET Core MVC. GET запрос, возвращающий строку "Hello World!".
 
-![Ссылка 3](https://github.com/Firewal7/devops-netology/blob/main/image/09-ci-04-jenkins-2.jpg)
-![Ссылка 4](https://github.com/Firewal7/devops-netology/blob/main/image/09-ci-04-jenkins-2.jpg)
+![Ссылка 3](https://github.com/Firewal7/application-project/blob/main/images/3.jpg)
+![Ссылка 4](https://github.com/Firewal7/application-project/blob/main/images/4.jpg)
 
 2.2 Создал докер образ для установки этого сервиса. 
 
@@ -255,6 +257,6 @@ CONTAINER ID   IMAGE                         COMMAND                  CREATED   
 0f7461853941   bbb8c2e28d7d/application:v1   "dotnet Application.…"   3 hours ago   Up 3 hours   0.0.0.0:8080->80/tcp, :::8080->80/tcp   modest_poincare
 ```
 
-![Ссылка 5](https://github.com/Firewal7/devops-netology/blob/main/image/09-ci-04-jenkins-2.jpg)
+![Ссылка 5](https://github.com/Firewal7/application-project/blob/main/images/5.jpg)
 
 [Dockerfile](https://github.com/Firewal7/devops-netology/blob/main/image/09-ci-04-jenkins-2.jpg)
