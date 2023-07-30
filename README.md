@@ -277,6 +277,8 @@ CONTAINER ID   IMAGE                         COMMAND                  CREATED   
 0f7461853941   bbb8c2e28d7d/application:v1   "dotnet Application.…"   3 hours ago   Up 3 hours   0.0.0.0:8080->80/tcp, :::8080->80/tcp   modest_poincare
 ```
 
+- Приложение работает на locahost сервера по порту 8080.
+
 ![Ссылка 5](https://github.com/Firewal7/application-project/blob/main/images/5.jpg)
 
 [Ссылка на Dockerfile](https://github.com/Firewal7/application-project/blob/main/Dockerfile)
