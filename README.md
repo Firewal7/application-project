@@ -195,10 +195,7 @@ Created symlink /etc/systemd/system/multi-user.target.wants/rancher-system-agent
 ![Ссылка 4](https://github.com/Firewal7/application-project/blob/main/images/4.jpg)
 
 2.2 Создал докер образ для установки этого сервиса. 
-
-<details>
-<summary>docker build -t bbb8c2e28d7d/application:v1 .</summary>
-
+```
 root@agent:/home/user/app/Application/Application# docker build -t bbb8c2e28d7d/application:v1 .
 [+] Building 62.2s (17/17) FINISHED                                                                docker:default
  => [internal] load build definition from Dockerfile                                                         0.0s
@@ -224,7 +221,7 @@ root@agent:/home/user/app/Application/Application# docker build -t bbb8c2e28d7d/
  => => exporting layers                                                                                      0.4s 
  => => writing image sha256:6594b155838fe90293891c4e3f02578885271659b34191ecc0e1bdd0e47fe3d2                 0.0s 
  => => naming to docker.io/bbb8c2e28d7d/application:v1             
-</details>
+```
 
 ```
 root@agent:/home/user# docker images
