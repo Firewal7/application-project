@@ -12,6 +12,13 @@
 - Сервис должен содержать GET запрос, возвращающий строку "Hello World!".
 Адрес запроса произвольный.
 
+3.  Разработать helm-чарт для деплоя сервиса.
+    Helm-чарт должен содержать описание следующих элементов:
+-   Deployment 
+-   ConfigMap (если необходимо)
+-   Service
+-   Ingress (если необходимо)
+
 ### Решение:
 
 1.1 Развернул 2 сервера на Yandex Cloud. (VM server, VM agent).
@@ -284,3 +291,5 @@ CONTAINER ID   IMAGE                         COMMAND                  CREATED   
 [Ссылка на Dockerfile](https://github.com/Firewal7/application-project/blob/main/Dockerfile)
 
 [Ссылка на Application](https://github.com/Firewal7/application-project/blob/main/Application)
+
+3.1 Разработал helm-чарт для деплоя сервиса.
