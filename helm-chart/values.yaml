@@ -1,6 +1,6 @@
 # Default Values for my Helm Chart
 
 container:
-  image: bbb8c2e28d7d/application:v1
+  image: bbb8c2e28d7d/application
 
 replicaCount: 1
