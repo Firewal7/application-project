@@ -293,3 +293,5 @@ CONTAINER ID   IMAGE                         COMMAND                  CREATED   
 [Ссылка на Application](https://github.com/Firewal7/application-project/blob/main/Application)
 
 3.1 Разработал helm-чарт для деплоя сервиса.
+
+[Ссылка на Helm-Chart](https://github.com/Firewal7/application-project/blob/main/helm-chart)
