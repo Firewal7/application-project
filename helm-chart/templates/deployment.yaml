@@ -18,4 +18,6 @@ spec:
         - name : {{ .Release.Name }}-web
           image: {{ .Values.container.image }}
           ports:
-            - containerPort: 8080
+            - containerPort: 80
+              hostPort: 9890
+              protocol: TCP

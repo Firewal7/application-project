@@ -11,6 +11,7 @@ spec:
   ports:
     - name      : {{ .Release.Name }}-listener
       protocol  : TCP
-      port      : 8080  # Port on Load Balancer
-      targetPort: 8080  # Port on POD
+      port      : 80  # Port on Load Balancer
+      targetPort: 80  # Port on POD
+      nodePort: 30201
   type: LoadBalancer
