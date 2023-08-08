@@ -263,7 +263,7 @@ Successfully packaged chart and saved it to: /home/kali/app/application-project/
 
 ```
 <details>
-<summary>docker install</summary>
+<summary>Загрузка helm-chart в Chart Museum</summary>
 
 └─# sudo curl --verbose   --header "Authorization: Bearer b7c8e8d902c367c608b7e0feea044138c73d51f1"   --form "chart=@helm-chart-0.1.0.tgz"   https://sofin.baltorepo.com/application/app/upload/
 *   Trying 178.128.157.133:443...
@@ -311,6 +311,7 @@ Successfully packaged chart and saved it to: /home/kali/app/application-project/
 < 
 * Connection #0 to host sofin.baltorepo.com left intact
 {"success":true,"message":"","package_site_url":"/application/app/packages/helm-chart/releases/0.1.0/","package_api_url":"/api/v1/project/44/repository/57/helmchart/22/release/50/"}
+
 <details>
 
 ![Ссылка 6](https://github.com/Firewal7/application-project/blob/main/images/6.jpg)
