@@ -312,7 +312,7 @@ Successfully packaged chart and saved it to: /home/kali/app/application-project/
 * Connection #0 to host sofin.baltorepo.com left intact
 {"success":true,"message":"","package_site_url":"/application/app/packages/helm-chart/releases/0.1.0/","package_api_url":"/api/v1/project/44/repository/57/helmchart/22/release/50/"}
 
-<details>
+</details>
 
 ![Ссылка 6](https://github.com/Firewal7/application-project/blob/main/images/6.jpg)
 
