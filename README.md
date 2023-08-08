@@ -297,7 +297,7 @@ Successfully packaged chart and saved it to: /home/kali/app/application-project/
 > Authorization: Bearer b7c8e8d902c367c608b7e0feea044138c73d51f1
 > Content-Length: 1006
 > Content-Type: multipart/form-data; boundary=------------------------d79c748b1286a31d
-> 
+>
 * We are completely uploaded and fine
 < HTTP/1.1 200 OK
 < Server: nginx/1.18.0 (Ubuntu)
@@ -308,20 +308,20 @@ Successfully packaged chart and saved it to: /home/kali/app/application-project/
 < Vary: Accept
 < Allow: POST, OPTIONS
 < X-Frame-Options: SAMEORIGIN
-< 
+<
 * Connection #0 to host sofin.baltorepo.com left intact
 {"success":true,"message":"","package_site_url":"/application/app/packages/helm-chart/releases/0.1.0/","package_api_url":"/api/v1/project/44/repository/57/helmchart/22/release/50/"}
 
 </details>
 
-![Ссылка 6](https://github.com/Firewal7/application-project/blob/main/images/6.jpg)
+![Ссылка 7](https://github.com/Firewal7/application-project/blob/main/images/6.jpg)
 
 4.1 Добавил Helm репозиторий, установил Helm-chart.
 
-![Ссылка 7](https://github.com/Firewal7/application-project/blob/main/images/7.jpg)
+![Ссылка 8](https://github.com/Firewal7/application-project/blob/main/images/7.jpg)
 
-5. Работающий в браузере сервис. 
+5. Работающий в браузере сервис.
 
-![Ссылка 8](https://github.com/Firewal7/application-project/blob/main/images/8.jpg)
+![Ссылка 9](https://github.com/Firewal7/application-project/blob/main/images/8.jpg)
 
-![Ссылка 9](https://github.com/Firewal7/application-project/blob/main/images/9.jpg) 
+![Ссылка 10](https://github.com/Firewal7/application-project/blob/main/images/9.jpg)
