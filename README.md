@@ -314,14 +314,14 @@ Successfully packaged chart and saved it to: /home/kali/app/application-project/
 
 </details>
 
-![Ссылка 7](https://github.com/Firewal7/application-project/blob/main/images/6.jpg)
+![Ссылка 7](https://github.com/Firewal7/application-project/blob/main/images/7.jpg)
 
 4.1 Добавил Helm репозиторий, установил Helm-chart.
 
-![Ссылка 8](https://github.com/Firewal7/application-project/blob/main/images/7.jpg)
+![Ссылка 8](https://github.com/Firewal7/application-project/blob/main/images/8.jpg)
 
 5. Работающий в браузере сервис.
 
-![Ссылка 9](https://github.com/Firewal7/application-project/blob/main/images/8.jpg)
+![Ссылка 9](https://github.com/Firewal7/application-project/blob/main/images/9.jpg)
 
-![Ссылка 10](https://github.com/Firewal7/application-project/blob/main/images/9.jpg)
+![Ссылка 10](https://github.com/Firewal7/application-project/blob/main/images/10.jpg)
