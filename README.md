@@ -316,7 +316,7 @@ Successfully packaged chart and saved it to: /home/kali/app/application-project/
 
 ![Ссылка 7](https://github.com/Firewal7/application-project/blob/main/images/7.jpg)
 
-4.1 Добавил Helm репозиторий, установил Helm-chart.
+4.1 Добавил Helm репозиторий в Rancher, установил Helm-chart.
 
 ![Ссылка 8](https://github.com/Firewal7/application-project/blob/main/images/8.jpg)
 
