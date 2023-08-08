@@ -109,7 +109,7 @@ Status: Downloaded newer image for rancher/rancher:latest
 f54bb56e844d853d32ad1626cdcba885bd354847f268426ae089267aa3eeb3ea
 ```
 
-1.5 Запустил на VM agent созданный на Rancher cluster
+1.5 Запустил на VM agent, созданный на Rancher cluster
 
 ```
 ser@agent:~$ sudo curl --insecure -fL https://158.160.65.138/system-agent-install.sh | sudo  sh -s - --server https://158.160.65.138 --label 'cattle.io/os=linux' --token pcmwfx8l6rvh965gwbp9bbdznncwn8fnqt4569d94wbsztn4t9cbrw --ca-checksum 9f44aed915e0aa868b2dce1adda08aa39c08486e9d0da0548be8e6a0f3d9892d --etcd --controlplane --worker
@@ -243,7 +243,7 @@ f54bb56e844d   rancher/rancher:latest   "entrypoint.sh"   21 minutes ago   Up 21
 
 ```
 
-- Приложение работает на locahost сервера VM Server на порте 8080.
+- Приложение работает на localhost сервера VM Server на порте 8080.
 
 ![Ссылка 5](https://github.com/Firewal7/application-project/blob/main/images/5.jpg)
 
